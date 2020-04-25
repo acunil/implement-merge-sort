@@ -1,3 +1,4 @@
+"use strict";
 function mergeSort(array) {
   // base case to end recursion
   if (array.length <= 1) return array;
@@ -36,4 +37,3 @@ function merge(left, right) {
 }
 
 console.log(mergeSort([2, 4, 7, 8, 4, 6, 1]));
-// console.log(merge([1, 2, 3, 4], [5, 6, 7, 8]));
